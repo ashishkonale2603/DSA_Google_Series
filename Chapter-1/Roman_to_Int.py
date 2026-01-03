@@ -1,6 +1,6 @@
 class Solution(object):
     def romanToInt(self,s):
-
+        #store the values in hash
         store= {
             "I":1,
             "V":5,
