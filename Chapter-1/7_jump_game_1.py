@@ -12,5 +12,5 @@ class Solution(object):
         return True
     
 s=Solution()
-nums = [3,2,1,0,4]
+nums = [2,3,0,1,4]
 print(s.jump(nums))
