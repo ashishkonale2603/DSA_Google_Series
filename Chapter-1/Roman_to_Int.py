@@ -19,4 +19,5 @@ class Solution(object):
             else:
                 total += roman[s[i]]
 
+
         return total + roman[s[-1]]
