@@ -11,6 +11,8 @@ class Solution(object):
             m=max(m,i+nums[i])
         return True
     
+
+    
 s=Solution()
 nums = [2,3,0,1,4]
 print(s.jump(nums))
