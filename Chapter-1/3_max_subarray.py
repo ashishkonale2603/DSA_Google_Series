@@ -13,7 +13,6 @@ class Solution(object):
             maxSub=max(maxSub,curSum)
         return maxSub
         
-        
 sol=Solution()
 nums=[5,4,-1,7,8]
 print(sol.maxSubArray(nums))
