@@ -14,8 +14,8 @@ class Solution(object):
         total=0
 
         for i in range(len(s)-1):
-            if roman[s[i]] < roman[s[i + 1]]:
-                total -= roman[s[i]]
+            if store[s[i]] < store[s[i + 1]]:
+                total -= store[s[i]]
             else:
-                total += roman[s[i]]
-        return total + roman[s[-1]]
+                total += store[s[i]]
+        return total + store[s[-1]]
