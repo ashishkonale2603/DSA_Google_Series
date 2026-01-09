@@ -19,3 +19,7 @@ class Solution(object):
             else:
                 total += store[s[i]]
         return total + store[s[-1]]
+    
+sol=Solution()
+s="MCMXCIV"
+print(sol.romanToInt(s))
