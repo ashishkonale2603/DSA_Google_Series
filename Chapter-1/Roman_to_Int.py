@@ -10,6 +10,7 @@ class Solution(object):
             "D":500,
             "M":1000,
         }
+        
 
         total=0
 
