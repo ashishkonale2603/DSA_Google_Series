@@ -16,6 +16,7 @@ class Solution(object):
                 bool=True
         return bool
     
+    
 sol = Solution()
 mat = [[0,0,0],[0,1,0],[1,1,1]]
 target = [[1,1,1],[0,1,0],[0,0,0]]
