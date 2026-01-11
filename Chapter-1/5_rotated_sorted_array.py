@@ -3,7 +3,6 @@ class Solution(object):
 
         left=0
         right=len(nums)-1
-
         while left<=right:
 
             mid=(left+right)//2
@@ -24,7 +23,6 @@ class Solution(object):
                     right=mid-1
 
         return -1
-
 
 nums = [4,5,6,7,0,1,2]
 target = 5
