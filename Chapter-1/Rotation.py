@@ -2,7 +2,6 @@ class Solution(object):
     def rotate(self,mat,target):
 
         n=len(mat)
-
         bool=False
         if mat==target:
             bool=True
