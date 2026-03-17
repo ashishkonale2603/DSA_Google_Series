@@ -1,5 +1,6 @@
 class trapping_water(object):
     def trapWater(self, height):
+        
         l=0
         r=len(height)-1
         lMax=height[l]
