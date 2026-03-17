@@ -1,6 +1,9 @@
 class Solution():
     def thirdmax(self,nums):
-
+        out=[]
+        for  i in nums:
+            if i not in out:
+                out.append(i)
         sortList=sorted(out)
 
         if len(sortList)>=3:
