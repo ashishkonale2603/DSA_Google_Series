@@ -9,6 +9,7 @@ class Solution(object):
                 
         for i in range(n):
             matrix[i].reverse()
+            
         return matrix
 
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
